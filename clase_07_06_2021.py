@@ -17,3 +17,7 @@ class Sintaxis:
         edad, _peso = 45, 50.75
         print("» Edad: {}".format(edad))
         print("» Peso: {}".format(_peso))
+
+
+ejercicio2 = Sintaxis()
+ejercicio2.usoDeVariables()
