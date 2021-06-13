@@ -79,3 +79,9 @@ class Sintaxis:
         # FORMAT
         # print("""Me llamo {}, y tengo {}
         #          años""".format(nombre, edad))
+
+        # SLICES
+        print(usuario, materias, docente)
+        print(usuario, usuario[0], usuario[0:2], usuario[-1])
+        print(materias, materias[2:], materias[:1], materias[::], materias[-2:])
+        print(docente, docente["Nombre"])
