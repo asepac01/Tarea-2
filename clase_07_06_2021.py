@@ -70,3 +70,8 @@ class Sintaxis:
         materias = ["Programacion Web", "PHP", "Ruby"]
         materias[1] = "Python"
         materias.append("Go")
+
+        # DATOS, DICCIONARIO
+        docente = {}
+        docente = {"Nombre": "Edna", "Edad": 22, "Fac.": "FACI"}
+        docente["Carrera"] = "CS"
