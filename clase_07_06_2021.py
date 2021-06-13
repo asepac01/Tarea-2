@@ -38,3 +38,8 @@ class Sintaxis:
         print("  » Tipo de Sexo: {}".format(tipoSex))
         print("  » Estado Civil: {}".format(civil))
         print("  » Peso: {}".format(_peso))
+
+
+ejercicio3 = Sintaxis()
+print(ejercicio3.palabra)
+ejercicio3.usoDeVariables()
