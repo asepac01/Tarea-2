@@ -64,3 +64,9 @@ class Sintaxis:
         # DATOS, TUPLAS
         usuario = ()
         usuario = ("asepac01", 5619, "lorelyangie01@gmail.com", True)
+
+        # DATOS, LISTA
+        materias = []
+        materias = ["Programacion Web", "PHP", "Ruby"]
+        materias[1] = "Python"
+        materias.append("Go")
