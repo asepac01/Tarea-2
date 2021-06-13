@@ -23,6 +23,28 @@
 # ejercicio2.usoDeVariables()
 
 
+# class Sintaxis:
+#     iterador = 0
+#     def __init__(self, dato = "¤ Inicio..."):
+#         self.palabra = dato
+
+#     def usoDeVariables(self):
+#         edad, _peso = 20, 53.35
+#         nombre = "Lorely Sepa"
+#         tipoSex = "Femenino"
+#         civil = True
+#         print("  » Nombre: {}".format(nombre))
+#         print("  » Edad: {}".format(edad))
+#         print("  » Tipo de Sexo: {}".format(tipoSex))
+#         print("  » Estado Civil: {}".format(civil))
+#         print("  » Peso: {}".format(_peso))          
+
+
+# ejercicio3 = Sintaxis()
+# print(ejercicio3.palabra)
+# ejercicio3.usoDeVariables()
+
+
 class Sintaxis:
     iterador = 0
     def __init__(self, dato = "¤ Inicio..."):
@@ -33,13 +55,12 @@ class Sintaxis:
         nombre = "Lorely Sepa"
         tipoSex = "Femenino"
         civil = True
-        print("  » Nombre: {}".format(nombre))
-        print("  » Edad: {}".format(edad))
-        print("  » Tipo de Sexo: {}".format(tipoSex))
-        print("  » Estado Civil: {}".format(civil))
-        print("  » Peso: {}".format(_peso))
-
-
-ejercicio3 = Sintaxis()
-print(ejercicio3.palabra)
-ejercicio3.usoDeVariables()
+        # print("  » Nombre: {}".format(nombre))
+        # print("  » Edad: {}".format(edad))
+        # print("  » Tipo de Sexo: {}".format(tipoSex))
+        # print("  » Estado Civil: {}".format(civil))
+        # print("  » Peso: {}".format(_peso))          
+        
+        # DATOS, TUPLAS
+        usuario = ()
+        usuario = ("asepac01", 5619, "lorelyangie01@gmail.com", True)
