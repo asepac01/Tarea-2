@@ -75,3 +75,7 @@ class Sintaxis:
         docente = {}
         docente = {"Nombre": "Edna", "Edad": 22, "Fac.": "FACI"}
         docente["Carrera"] = "CS"
+
+        # FORMAT
+        # print("""Me llamo {}, y tengo {}
+        #          años""".format(nombre, edad))
